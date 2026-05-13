@@ -17,7 +17,7 @@ function gate() {
 }
 /* ------------------------------------- Andre side (Funksjon) ------------------------------------ */
 
-let forsok = 3;
+let forsok = 4;
 
 function gaate() {
   const code = document.getElementById("gate").value;
