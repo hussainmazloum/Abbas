@@ -1,7 +1,7 @@
 body {
   margin: 0;
   font-family: Arial, Helvetica, sans-serif;
-  background-color: black;
+  background-color: #070b17;
 }
 
 #container {
@@ -176,7 +176,7 @@ button:hover {
   text-align: center;
 }
 
-@media (max-width: 768px) {
+@media (max-width: 750px) {
   #top p,
   ul {
     width: 90%;
