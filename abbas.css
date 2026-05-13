@@ -4,6 +4,8 @@ body {
   background-color: #070b17;
 }
 
+/* ------------------------------------------------------------------ */
+
 #container {
   display: flex;
   flex-direction: column;
@@ -35,6 +37,8 @@ body {
 
   position: relative;
 }
+
+/* ------------------------------------------------------------------ */
 
 #top {
   display: flex;
@@ -101,6 +105,8 @@ span ul li {
   list-style-type: none;
 }
 
+/* ------------------------------------------------------------------ */
+
 #mid {
   display: flex;
   flex-direction: column;
@@ -155,6 +161,9 @@ button:hover {
   background-color: rgba(100, 80, 54, 0.644);
 }
 
+/* ------------------------------------------------------------------ */
+
+
 #ned {
   display: flex;
   flex-direction: column;
@@ -175,6 +184,8 @@ button:hover {
   font-size: 18px;
   text-align: center;
 }
+
+/* ------------------------------------------------------------------ */
 
 @media (max-width: 750px) {
   #top p,
