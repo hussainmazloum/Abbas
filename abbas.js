@@ -41,6 +41,31 @@ function gaate() {
   }
 }
 
+
+/* ------------------------------------- Drag and drop (Funksjon) ------------------------------------ */
+
+function dragstartHandler(ev) {
+  ev.dataTransfer.setData("text", ev.target.id);
+}
+
+function dragoverHandler(ev) {
+  ev.preventDefault();
+}
+
+function dropHandler(ev) {
+  const message = document.getElementById("message");
+
+
+  ev.preventDefault();
+  const data = ev.dataTransfer.getData("text");
+  ev.target.appendChild(document.getElementById(data));
+
+   message.innerText = "Du vant !!";
+
+
+  
+}
+
 /* ------------------------------------- Tilbake side (Funksjon) ------------------------------------ */
 
 function tilbake() {
