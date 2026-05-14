@@ -231,6 +231,9 @@ button:hover {
     width: 50%;
   }
 
-
+  #mid {
+    margin-top: 10vh;
+  } 
 }
 
+}
