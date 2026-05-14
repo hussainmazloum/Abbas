@@ -64,10 +64,8 @@ body {
 
   width: 100%;
   margin: 0 auto;
-  /*   position: absolute;
-  top: 0;
- */
- */}
+  
+ }
 
 #top p {
   max-height: 25px;
@@ -233,7 +231,8 @@ button:hover {
     width: 50%;
   }
 
- /*  #mid {
+  #mid {
     margin-top: 10vh;
-  } */
+  } 
 }
+
