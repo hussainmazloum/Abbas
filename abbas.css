@@ -237,5 +237,13 @@ button:hover {
   #mid {
     margin-top: 10vh;
   } 
+
+  .bilde img {
+  width: 20%;
+}
+
+#mid img {
+  width: 40%;
+}
 }
 
